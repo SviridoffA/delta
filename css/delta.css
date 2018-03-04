@@ -592,8 +592,8 @@ hr {
     }
     #car {
         float: none !important;
-        width: 70% !important;
-        margin-top: -258px;
+        width: 85% !important;
+        margin-top: -280px;
     }
     .parallax3 {
         float: none !important;
@@ -686,6 +686,96 @@ hr {
         width: 100% !important;
         text-align: center !important;
         margin-top: 110px !important;
+    }
+    #cs6 {
+        float: none !important;
+        width: 100% !important;
+    }
+    #c6 {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+    }
+    .section7 {
+        top: 350px !important;
+        margin-bottom: 350px !important;
+    }
+    .cs7 {
+        top: 60px !important;
+    }
+    #cs7 {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    #c7 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .section8 {
+        top: -140px !important;
+        margin-bottom: -140px !important;
+    }
+    .cs8 {
+        margin-top: 320px !important;
+    }
+    #cs8 {
+        float: none !important;
+        width: 100% !important;
+    }
+    #c8 {
+        float: none !important;
+        width: 100% !important;
+    }
+    .section9 {
+        top: 140px !important;
+        margin-bottom: 140px !important;
+    }
+    #c8 {
+        margin-top: 0px !important;
+    }
+    .cs9 {
+        margin-top: 100px !important;
+    }
+    #c9 {
+        float: none !important;
+        width: 100% !important;
+        margin: -61px 0px 15px -18px !important;
+    }
+    #cs9 {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+    }
+    .section10 {
+        top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    #c10 {
+        float: none !important;
+        width: 100% !important;
+        margin: 100px 0px 0px 0px !important;
+    }
+    .section11 {
+        top: -393px !important;
+        margin-bottom: -393px !important;
+    }
+    .contact {
+        top: 0% !important;
+        margin-left: 2% !important;
+    }
+    .ftleft {
+        display: none;
+    }
+    .logobl {
+        margin: 7px 0px 5px 35px !important;
+    }
+    .ftdown {
+        text-align: center;
+    }
+    #ftr {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
     }
 }
 
