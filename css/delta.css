@@ -11,11 +11,17 @@ p {
     font-size: 16px;
     letter-spacing: 0.01em;
 }
-
+table {
+    margin-right: 5px;
+}
+tr {
+    height: 100px;
+}
 td {
     font-family: 'Open Sans';
     font-size: 22px;
     letter-spacing: 0.01em;
+    padding-left: 5px;
 }
 
 hr {
@@ -609,6 +615,9 @@ hr {
     hr {
         margin-left: auto;
         margin-right: auto;
+    }
+    td {
+        font-size: 10px;
     }
     .section1, .section3, .section7, .section9 {
         background-image: none !important;
