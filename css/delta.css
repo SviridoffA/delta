@@ -291,6 +291,9 @@ hr {
     td {
         font-size: 15px;
     }
+    td > img {
+        width: 30px;
+    }
     .wheel1 {
         margin: 95px 0px 0px 50px !important;
     }
@@ -617,7 +620,7 @@ hr {
         margin-right: auto;
     }
     td {
-        font-size: 10px;
+        font-size: 12px;
     }
     .section1, .section3, .section7, .section9 {
         background-image: none !important;
