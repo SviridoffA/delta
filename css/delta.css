@@ -31,6 +31,9 @@ hr {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.contact {
+    top: 8%;
+}
 
 .section1 h2, .section5 h2, .section3 h2, .section7 h2, .section9 h2, .section10 h2{
     font-weight: bold;
@@ -210,7 +213,7 @@ hr {
         font-size: 20px;
     }
     p {
-        font-size: 13px;
+        font-size: 18px;
     }
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
         height: 600px !important;
@@ -220,9 +223,6 @@ hr {
     }
     .image-wrap {
         height: 650px !important;
-    }
-    .contact {
-        top: -30% !important;
     }
     .section2, .section8 {
         top: -385px !important;
@@ -235,8 +235,32 @@ hr {
     .section5 {
         border-bottom: 15px solid #f40442 !important;
     }
+    .cs8 {
+        margin-top: 550px;
+    }
+    #cs8 {
+        margin-top: -90px !important;
+    }
+    .cs9 {
+        margin-top: 185px !important;
+    }
+    .section9 {
+        top: -380px !important;
+        margin-bottom: -380px !important;
+    }
     .section10 {
         border-bottom: 15px solid #f40442 !important;
+        top: -155px !important;
+        margin-bottom: -155px !important;
+    }
+    #c10 {
+        margin: 25% 0px 0px 0px !important;
+    }
+    .parallax3 h2 {
+        margin-top: 30px !important;
+    }
+    .wheel7 {
+        top: 110px !important;
     }
 }
 
@@ -259,6 +283,12 @@ hr {
     #cs4 {
         margin-top: 290px !important;
     }
+    .s5 {
+        margin: -5px 0px 0px -470px !important;
+    }
+    #cs5 {
+        top: 155px;
+    }
     #cs6 {
         margin-top: -65px !important;
     }
@@ -268,22 +298,24 @@ hr {
     #cs9 {
         margin-top: -70px !important;
     }
+    .cs9 {
+        margin-top: 205px !important;
+    }
+        .wheel9 {
+        top: -25px !important;
+    }
+    .wheel {
+        display: none !important;
+    }
     .ftright {
         margin: 0px 0px 30px 40px !important;
-    }
-    .contact {
-    top: -12% !important;
     }
 }
 
 @media screen and (max-width: 950px) {
-    h2 {
-        font-size: 15px;
-    }
-
-    p {
-        font-size: 10px;
-    }
+    .parallax3 h2 {
+    margin-top: 90px !important;
+}
     hr {
         width: 110px;
         border-top: 3px solid;
@@ -295,23 +327,26 @@ hr {
         width: 30px;
     }
     .wheel1 {
-        margin: 95px 0px 0px 50px !important;
+        margin: 80px 0px 0px 50px !important;
     }
     .hdimage {
         max-width: 600px !important;
     }
     .parallax3 {
-        margin-top: -60px;
+        margin-top: -95px;
     }
     .parallax {
         margin-top: -130px;
-}
+    }
+    .parallax2 {
+        margin-top: -10px !important;
+    }
     .container {
         width: 520px;
     }
 
     .image-wrap {
-        height: 600px !important;
+        height: 700px !important;
     }
 
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
@@ -409,7 +444,7 @@ hr {
         margin-top: -75px !important;
     }
     #c3 {
-        margin-top: -60px !important;
+        margin-top: -40px !important;
     }
     #cs3 {
         margin-top: 15px !important;
@@ -419,10 +454,10 @@ hr {
         margin-bottom: -140px;
     }
     #cs4 {
-        margin-top: 283px !important;
+        margin-top: 190px !important;
     }
     #cs5 {
-        margin-top: -165px;
+        margin-top: -50px;
     }
     .section6 {
         top: -175px !important;
@@ -457,7 +492,7 @@ hr {
         margin-bottom: -255px !important;
     }
     .cs9 {
-        margin-top: 200px !important;
+        margin-top: 140px !important;
     }
     .wheel9 {
         top: -15px !important;
@@ -469,6 +504,12 @@ hr {
     .contact {
         top: 10% !important;
     }
+    .s3 {
+            margin: 90px 0px 0px 50px !important;
+    }
+    .ftcentre {
+        margin: 0px 5px 30px 40px !important;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -478,23 +519,34 @@ hr {
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
         height: 370px !important;
     }
-    .wheel1 {
-            margin: 63px 0px 0px 50px !important;
+    .section1, .section3, .section7, .section9 {
+        background-image: none !important;
+        background-color: #1376FF !important;
+        border-bottom: 10px solid #f40442 !important;
+    }
+    .wheel, .wheel1, .wheel7, .wheel9, .s3 {
+        display: none;
     }
     #s1 {
         margin-top: -38px;
         margin-left: -14px;
     }
     .section2 {
-        top: -260px !important;
-        margin-bottom: -260px !important;
+        top: -190px !important;
+        margin-bottom: -190px !important;
+    }
+    #c1 {
+    margin-top: 90px !important;
     }
     #c2 {
         margin-top: 315px !important;
     }
+    #c3 {
+    margin-top: 70px !important;
+    }
     .section3 {
-        top: -215px !important;
-        margin-bottom: -215px !important;
+        top: -125px !important;
+        margin-bottom: -125px !important;
     }
     .s3 {
         margin: 70px 0px 0px 50px !important;
@@ -502,59 +554,68 @@ hr {
     .section4 {
         top: -95px !important;
         margin-bottom: -95px !important;
-        background-size: 280px auto !important;
+        background-size: 235px auto !important;
     }
     #cs4 {
         margin-top: 150px !important;
     }
     .section5 {
-        top: -20px !important;
-        margin-bottom: -20px !important;
+        top: 0px !important;
+        margin-bottom: 0px !important;
         border-bottom: 10px solid #f40442 !important;
     }
-    .section7 {
-        top: 60px !important;
-        margin-bottom: -60px !important;
+    .s5 {
+        margin: -110px 0px 0px -470px !important;
+    }
+    #cs5 {
+        margin-top: -120px !important;
+    }
+    .section6 {
+        top: -140px !important;
+        margin-bottom: -140px !important;
     }
     .section8 {
         top: -95px !important;
         margin-bottom: -95px !important;
     }
     .section7 {
-        top: -170px !important;
-        margin-bottom: -170px !important;
+        top: -75px !important;
+        margin-bottom: -75px !important;
     }
     .cs6 {
-        margin-top: 310px !important;
-    }
-    .wheel7 {
-            top: 60px !important;
+        margin-top: 270px !important;
     }
     .cs7 {
-        top: -23px !important;
+        top: 75px !important;
+    }
+    #cs7 {
+        margin-top: 25px !important;
     }
     .section8 {
-        top: -225px !important;
-        margin-bottom: -225px !important;
+        top: -140px !important;
+        margin-bottom: -140px !important;
     }
     .cs8 {
         margin-top: 380px !important;
     }
     .section9 {
-        top: -180px !important;
-        margin-bottom: -180px !important;
+        top: -85px !important;
+        margin-bottom: -85px !important;
     }
     .cs9 {
         margin-top: 140px !important;
     }
     .section10 {
         border-bottom: 10px solid #f40442 !important;
+        top: 0px !important;
+        margin-bottom: 0px !important;
     }
+
     #c9 {
         margin: -50px 47px 15px -48px !important;
     }
     #c10 {
-        margin: 29% 0px 0px 0px !important;
+        margin: 15% 0px 0px 0px !important;
     }
     #cs10 {
         top: 436px !important;
@@ -565,11 +626,14 @@ hr {
         height: 370px !important;
     }
     .contact {
-        top: -17% !important;
+        top: 0% !important;
         margin-left: 8% !important;
     }
     .logobl {
-            margin: 7px 0px 5px 0px !important;
+            margin: 7px 0px 5px 35px !important;
+    }
+    .ftleft {
+        display: none;
     }
     .ftcentre {
             margin: 0px 40px -8px 40px !important;
@@ -601,19 +665,24 @@ hr {
     }
     #car {
         float: none !important;
-        width: 85% !important;
-        margin-top: -280px;
+        width: 100% !important;
+        margin-top: -370px;
     }
     .parallax3 {
         float: none !important;
-        margin-top: -46px;
-        margin-left: 30px;
+        margin-top: 0px;
+        margin-left: -14px;
+        width: 100% !important;
+    }
+    .parallax2 {
+        margin-top: -10px !important;
     }
     h2 {
         text-align: center;
     }
     p {
         text-align: center;
+        font-size: 15px;
     }
     hr {
         margin-left: auto;
@@ -622,19 +691,11 @@ hr {
     td {
         font-size: 12px;
     }
-    .section1, .section3, .section7, .section9 {
-        background-image: none !important;
-        background-color: #1376FF !important;
-        border-bottom: 10px solid #f40442 !important;
-    }
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
-        height: 400px !important;
+        height: 500px !important;
     }
     .section1 {
         top: -70px !important;
-    }
-    .wheel, .wheel1, .wheel7, .wheel9, .s3 {
-        display: none;
     }
     #c1 {
         margin-top: 50px !important;
@@ -643,6 +704,7 @@ hr {
         margin-left: 15px;
         float: none !important;
         width: 80% !important;
+        top: -30px !important;
     }
     #s1 {
         float: none !important;
@@ -664,10 +726,10 @@ hr {
     #s2 {
         float: none !important;
         width: 100% !important;
-        margin-top: 0px !important;
+        margin-top: 30px !important;
     }
     #c3 {
-        margin-top: 50px !important;
+        margin-top: 75px !important;
     }
     #cs3 {
         float: none !important;
@@ -687,7 +749,7 @@ hr {
     #cs4 {
         float: none !important;
         width: 100% !important;
-        margin-top: 70px !important;
+        margin-top: 100px !important;
     }
     .section5 {
         top: 30px !important;
@@ -697,7 +759,10 @@ hr {
         float: none !important;
         width: 100% !important;
         text-align: center !important;
-        margin-top: 110px !important;
+        margin-top: -50px !important;
+    }
+    .s5 {
+        margin: -70px 0px 0px -470px !important;
     }
     #cs6 {
         float: none !important;
@@ -709,8 +774,8 @@ hr {
         margin-top: 0px !important;
     }
     .section7 {
-        top: 350px !important;
-        margin-bottom: 350px !important;
+        top: 200px !important;
+        margin-bottom: 200px !important;
     }
     .cs7 {
         top: 60px !important;
@@ -729,7 +794,7 @@ hr {
         margin-bottom: -140px !important;
     }
     .cs8 {
-        margin-top: 320px !important;
+        margin-top: 375px !important;
     }
     #cs8 {
         float: none !important;
@@ -747,7 +812,7 @@ hr {
         margin-top: 0px !important;
     }
     .cs9 {
-        margin-top: 100px !important;
+        margin-top: 135px !important;
     }
     #c9 {
         float: none !important;
@@ -776,14 +841,14 @@ hr {
         top: 0% !important;
         margin-left: 2% !important;
     }
-    .ftleft {
-        display: none;
-    }
     .logobl {
         margin: 7px 0px 5px 35px !important;
     }
     .ftdown {
         text-align: center;
+    }
+    .ftright {
+        margin: 0px 0px -2px 6px !important;
     }
     #ftr {
         margin-top: 0px !important;
