@@ -5,7 +5,9 @@ h2 {
     letter-spacing: 0.01em;
     color: #697c93;
 }
-
+#logo {
+    width: 200px;
+}
 p {
     color: #697c93;
     font-size: 16px;
@@ -23,7 +25,9 @@ td {
     letter-spacing: 0.01em;
     padding-left: 5px;
 }
-
+.cover {
+    margin-top: 160px;
+}
 hr {
     width: 155px;
     border-top: 5px solid;
@@ -57,7 +61,10 @@ hr {
 .section1, .section3, .section5, .section7,  .section9 {
     overflow: hidden;
 }
-
+.parallax {
+    overflow: hidden;
+    margin-top: -160px;
+}
 /* font-family: "RalewayRegular"; */
 @font-face {
     font-family: "RalewayRegular";
@@ -351,8 +358,11 @@ hr {
     .parallax3 {
         margin-top: -95px;
     }
+    #wrp {
+        margin-top: -45px;
+    }
     .parallax {
-        margin-top: -130px;
+        margin-top: -340px;
     }
     .parallax2 {
         margin-top: -10px !important;
@@ -705,6 +715,9 @@ hr {
     }
     h2 {
         text-align: center;
+    }
+    #logo {
+        width: 170px;
     }
     p {
         text-align: center;
