@@ -38,16 +38,13 @@ hr {
 .contact {
     top: 8%;
 }
-
 .section1 h2, .section5 h2, .section3 h2, .section7 h2, .section9 h2, .section10 h2{
     font-weight: bold;
     color: #ffffff;
 }
-
 .section1 p, .section3 p, .section5 p, .section7 p, .section9 p{
     color: #ffffff;
 }
-
 .butup {
     display: none;
     width: 50px;
@@ -163,7 +160,6 @@ hr {
 .drop {
     display: none;
 }
-
 .dropbtn {
     background-color: #FFFFFF;
     color: #067CFF;
