@@ -882,6 +882,12 @@ hr {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
     }
+    #wrp {
+        margin-top: 0px;
+    }
+    .parallax {
+        margin-top: -250px;
+    }
 }
 
 footer {
