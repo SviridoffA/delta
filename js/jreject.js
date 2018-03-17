@@ -75,7 +75,7 @@
             // Message displayed below closing link
             closeMessage: 'By closing this window you acknowledge that your experience '+
             'on this website may be degraded',
-            closeLink: 'ЗАКРЫТЬ ЭТО ОКНО',
+            closeLink: '<img src="images/close.png">',
             closeURL: '#',
 
             // Allows closing of window with esc key
@@ -354,13 +354,24 @@
             top: scroll[1]+(size[3]/4),
             left: scroll[0]
         });
+        // Bind closing event to trigger closejr
+        // to be consistant with ESC key close function
+        element.find('#jr_close a').click(function() {
+            $(this).trigger('closejr');
 
-        // Wrapper for inner centered content (div)
-        element.find('#jr_inner').css({
-            minWidth: displayNum*100,
-            maxWidth: displayNum*140,
-            // min/maxWidth not supported by IE
-            width: $.layout.name == 'trident' ? displayNum*155 : 'auto'
+            // If plain anchor is set, return false so there is no page jump
+            if (opts.closeURL === '#') {
+                return false;
+            }
+        });
+
+        element.find('#jr_overlay').click(function() {
+            $(this).trigger('closejr');
+
+            // If plain anchor is set, return false so there is no page jump
+            if (opts.closeURL === '#') {
+                return false;
+            }
         });
 
         element.find('#jr_inner li').css({ // Browser list items (li)
@@ -387,18 +398,7 @@
             return false;
         });
 
-        // Bind closing event to trigger closejr
-        // to be consistant with ESC key close function
-        element.find('#jr_close a').click(function() {
-            $(this).trigger('closejr');
-
-            // If plain anchor is set, return false so there is no page jump
-            if (opts.closeURL === '#') {
-                return false;
-            }
-        });
-
-        // Set focus (fixes ESC key issues with forms and other focus bugs)
+       // Set focus (fixes ESC key issues with forms and other focus bugs)
         $('#jr_overlay').focus();
 
         // Hide elements that won't display properly

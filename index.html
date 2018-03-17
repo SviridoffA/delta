@@ -360,17 +360,14 @@ window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader)
                 $(document).ready(function(){
                     $.reject({
                         reject: {
-                            safari: true, // Apple Safari
-                            chrome: true, // Google Chrome
-                            firefox: true, // Mozilla Firefox
-                            msie: true, // Microsoft Internet Explorer
-                            opera: true, // Opera
+                            safari: 6, // Apple Safari
                             konqueror: true, // Konqueror (Linux)
                             unknown: true // Everything else
                         },
-                        header: 'Внимание, вы используете неподдерживаемую версию браузера!!!', // Header Text
-                        paragraph1: 'К сожалению, мы обнаружили что вы используете неподдерживаемую версию браузера.', // Paragraph 1
-                        paragraph2: 'Можете выбрать подходящую версию из представленных ниже, либо закройте это окно для перехода на сайт. Но в последнем случае информация на сайте может отображаться некоректно.',
+                        header: 'К сожалению, вы используете неподдерживаемую версию браузера...', // Header Text
+                        paragraph1: 'информация на странице может отображаться некоректно. Обновите браузер, или просто закройте это окно.' +
+						'Также можете уточнить интересующую вас информацию по телефонам:', // Paragraph 1
+                        paragraph2: '<a href="tel:+79880000000" style="font-family: \'Open Sans\' ">+79880000000</ a><br><a href="tel:+79880000000" style="font-family: \'Open Sans\' ">+79880000000</ a>',
                         closeMessage: '', // Message below close window link
                         display: ['firefox','chrome','opera']
                     }); // Customized Browsers
