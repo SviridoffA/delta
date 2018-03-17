@@ -1,3 +1,6 @@
+a {
+    text-decoration: none !important;
+}
 h2 {
     font-family: 'Ralewaybold';
     font-weight: bold;
@@ -24,6 +27,7 @@ td {
     font-size: 22px;
     letter-spacing: 0.01em;
     padding-left: 5px;
+    color: white !important;
 }
 .cover {
     margin-top: 160px;
@@ -31,23 +35,22 @@ td {
 hr {
     width: 155px;
     border-top: 5px solid;
-    margin-left: 2px;
+
     margin-top: 0px;
     margin-bottom: 0px;
+    text-align: left; /* для ie */
+    margin: 0 auto 0 5px; /* для остальных браузеров */
 }
 .contact {
     top: 8%;
 }
-
 .section1 h2, .section5 h2, .section3 h2, .section7 h2, .section9 h2, .section10 h2{
     font-weight: bold;
     color: #ffffff;
 }
-
 .section1 p, .section3 p, .section5 p, .section7 p, .section9 p{
     color: #ffffff;
 }
-
 .butup {
     display: none;
     width: 50px;
@@ -155,15 +158,12 @@ hr {
     font-style: normal;
     font-weight: normal;
 }
-
 .butt {
     display: none;
 }
-
 .drop {
     display: none;
 }
-
 .dropbtn {
     background-color: #FFFFFF;
     color: #067CFF;
@@ -173,7 +173,6 @@ hr {
     cursor: pointer;
 	height: 50px
 }
-
 .dropdown {
     position: relative;
 /*    display: inline-block; */
@@ -188,20 +187,16 @@ hr {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	
 }
-
 .dropdown-content a {
     color: black;
     padding: 12px 0px;
     text-decoration: none;
     display: block;
 }
-
 .dropdown-content a:hover {background-color: #F5FAFF}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .dropdown:hover .dropbtn {
     background-color: #FFFFFF;
 	color: #f20444;
@@ -693,205 +688,269 @@ hr {
     .butup {
         left: 82%;
     }
+
     .container {
         width: 250px;
     }
+
     #iw {
         height: 45px !important;
     }
+
     #car {
         float: none !important;
         width: 100% !important;
         margin-top: -370px;
     }
+
     .parallax3 {
         float: none !important;
         margin-top: 0px;
         margin-left: -14px;
         width: 100% !important;
     }
+
     .parallax2 {
         margin-top: -10px !important;
     }
+
     h2 {
         text-align: center;
     }
+
     #logo {
         width: 170px;
     }
+
     p {
         text-align: center;
         font-size: 15px;
     }
+
     hr {
         margin-left: auto;
         margin-right: auto;
     }
+
     td {
         font-size: 12px;
     }
+
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10 {
         height: 500px !important;
     }
+
     .section1 {
         top: -70px !important;
     }
+
     #c1 {
         margin-top: 50px !important;
     }
+
     #cs1 {
         margin-left: 15px;
         float: none !important;
         width: 80% !important;
         top: -30px !important;
     }
+
     #s1 {
         float: none !important;
         width: 100% !important;
         margin-left: 0px;
     }
+
     .section2 {
         top: -110px !important;
         margin-bottom: -110px;
     }
+
     .section3 {
         top: 118px !important;
         margin-bottom: 118px !important;
     }
+
     #cs2 {
         width: 100% !important;
         float: none !important;
     }
+
     #s2 {
         float: none !important;
         width: 100% !important;
-        margin-top: 30px !important;
+        margin-top: 75px !important;
     }
+
     #c3 {
         margin-top: 75px !important;
     }
+
     #cs3 {
         float: none !important;
         width: 90% !important;
         margin-left: 30px;
     }
+
     #t3 {
         float: none !important;
         width: 100% !important;
     }
+
     .section4 {
         top: -30px !important;
         margin-bottom: -30px !important;
         background-position: bottom !important;
         background-size: 150px auto !important;
     }
+
     #cs4 {
         float: none !important;
         width: 100% !important;
         margin-top: 100px !important;
     }
+
     .section5 {
         top: 30px !important;
         margin-bottom: 30px !important;
     }
+
     #cs5 {
         float: none !important;
         width: 100% !important;
         text-align: center !important;
         margin-top: -50px !important;
     }
+
     .s5 {
         margin: -70px 0px 0px -470px !important;
     }
+
     #cs6 {
         float: none !important;
         width: 100% !important;
     }
+
     #c6 {
         float: none !important;
         width: 100% !important;
         margin-top: 0px !important;
     }
+
     .section7 {
         top: 200px !important;
         margin-bottom: 200px !important;
     }
+
     .cs7 {
         top: 5px !important;
     }
+
     #cs7 {
         float: none !important;
         width: 100% !important;
         margin-left: 0px !important;
     }
+
     #c7 {
         float: none !important;
         width: 100% !important;
     }
+
     .section8 {
         top: -140px !important;
         margin-bottom: -140px !important;
     }
+
     .cs8 {
         margin-top: 375px !important;
     }
+
     #cs8 {
         float: none !important;
         width: 100% !important;
     }
+
     #c8 {
         float: none !important;
         width: 100% !important;
     }
+
     .section9 {
         top: 140px !important;
         margin-bottom: 140px !important;
     }
+
     #c8 {
         margin-top: 0px !important;
     }
+
     .cs9 {
         margin-top: 135px !important;
     }
+
     #c9 {
         float: none !important;
         width: 100% !important;
         margin: -100px 0px 15px 4px !important;
     }
+
     #cs9 {
         float: none !important;
         width: 100% !important;
         margin-top: 0px !important;
     }
+
     .section10 {
         top: 0px !important;
         margin-bottom: 0px !important;
     }
+
     #c10 {
         float: none !important;
         width: 100% !important;
         margin: 100px 0px 0px 0px !important;
     }
+
     .section11 {
         top: -393px !important;
         margin-bottom: -393px !important;
     }
+
     .contact {
         top: 0% !important;
         margin-left: 2% !important;
     }
+
     .logobl {
         margin: 7px 0px 5px 35px !important;
     }
+
     .ftdown {
         text-align: center;
     }
+
     .ftright {
         margin: 0px 0px -2px 6px !important;
     }
+
     #ftr {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
+    }
+
+    #wrp {
+        margin-top: 0px;
+    }
+
+    .parallax {
+        margin-top: -250px;
+    }
+
+    .revealator-slideright, .revealator-slideleft {
+        transform: translate(0, 0) !important;
+        opacity: 1 !important;
+
     }
 }
 
@@ -1132,4 +1191,13 @@ footer {
     position: relative;
     top: -400px;
     margin-bottom: -400px;
+}
+
+.nojs{
+    display: none !important;
+}
+.no-js {
+    transform: translate(0, 0) !important;
+    opacity: 1 !important;
+
 }
