@@ -360,7 +360,6 @@ window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader)
                 $(document).ready(function(){
                     $.reject({
                         reject: {
-                            all: true,
                             safari: true, // Apple Safari
                             chrome: true, // Google Chrome
                             firefox: true, // Mozilla Firefox
@@ -368,10 +367,6 @@ window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader)
                             opera: true, // Opera
                             konqueror: true, // Konqueror (Linux)
                             unknown: true // Everything else
-                            header: 'Внимание, неподдерживаемая версия браузера!!!', // Header Text
-                            paragraph1: 'Мы обнаружили, что вы используете неподдерживаемую версию браузера.', // Paragraph 1
-                            paragraph2: 'Please install one of the many optional browsers below to proceed',
-                            closeMessage: 'Close this window at your own demise!' // Message below close window link
                         }
                     }); // Customized Browsers
                     return false;
