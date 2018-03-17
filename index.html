@@ -367,7 +367,12 @@ window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader)
                             opera: true, // Opera
                             konqueror: true, // Konqueror (Linux)
                             unknown: true // Everything else
-                        }
+                        },
+                        header: 'Внимание, вы используете неподдерживаемую версию браузера!!!', // Header Text
+                        paragraph1: 'К сожалению, мы обнаружили что вы используете неподдерживаемую версию браузера.', // Paragraph 1
+                        paragraph2: 'Можете выбрать подходящую версию из представленных ниже, либо закройте это окно для перехода на сайт. Но в последнем случае информация на сайте может отображаться некоректно.',
+                        closeMessage: '', // Message below close window link
+                        display: ['firefox','chrome','opera']
                     }); // Customized Browsers
                     return false;
                 });

@@ -75,7 +75,7 @@
             // Message displayed below closing link
             closeMessage: 'By closing this window you acknowledge that your experience '+
             'on this website may be degraded',
-            closeLink: 'Close This Window',
+            closeLink: 'ЗАКРЫТЬ ЭТО ОКНО',
             closeURL: '#',
 
             // Allows closing of window with esc key
