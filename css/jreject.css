@@ -55,6 +55,7 @@
 #jr_inner p {
     padding: 5px;
     margin: 0;
+    text-align: center;
 }
 
 #jr_inner ul {
