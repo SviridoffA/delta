@@ -458,11 +458,19 @@ hr {
     .section1 {
         margin-bottom: -115px !important;
     }
+    .section2 {
+        top: -190px !important;
+        margin-bottom: -190px !important;
+    }
     #c2 {
         margin-top: 460px !important;
     }
     #cs2 {
         margin-top: -75px !important;
+    }
+    .section3 {
+        top: -190px !important;
+        margin-bottom: -190px !important;
     }
     #c3 {
         margin-top: -40px !important;
@@ -556,8 +564,8 @@ hr {
         margin-left: -14px;
     }
     .section2 {
-        top: -190px !important;
-        margin-bottom: -190px !important;
+        top: -20px !important;
+        margin-bottom: -20px !important;
     }
     #c1 {
     margin-top: 90px !important;
@@ -569,8 +577,8 @@ hr {
     margin-top: 70px !important;
     }
     .section3 {
-        top: -125px !important;
-        margin-bottom: -125px !important;
+        top: 0px !important;
+        margin-bottom: 0px !important;
     }
     .s3 {
         margin: 70px 0px 0px 50px !important;
@@ -741,7 +749,8 @@ hr {
     }
 
     .section1 {
-        top: -70px !important;
+        top: 60px !important;
+        margin-bottom: 60px !important;
     }
 
     #c1 {
@@ -762,13 +771,13 @@ hr {
     }
 
     .section2 {
-        top: -110px !important;
-        margin-bottom: -110px;
+        top: -156px !important;
+        margin-bottom: -156px !important;
     }
 
     .section3 {
-        top: 118px !important;
-        margin-bottom: 118px !important;
+        top: 0px !important;
+        margin-bottom: 0px !important;
     }
 
     #cs2 {
@@ -1051,10 +1060,10 @@ footer {
     width: 100%;
     height: 824px;
     position:relative;
-    top:-160px;
+
     background-size: 100% 100%;
     z-index: 90;
-    margin-bottom: -160px;
+
 }
 
 .section2 {
