@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4c336dce-8f58-45ab-873b-8c0019b63940" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/company.html" afterPath="$PROJECT_DIR$/company.html" />
+      <change beforePath="$PROJECT_DIR$/css/delta.css" afterPath="$PROJECT_DIR$/css/delta.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path=".idea/vcs.xml" />
     <ignored path=".gitignore" />
@@ -18,16 +20,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="347">
+              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1521645373217" expanded="true" signature="19027:19054" ph="..." />
-                <marker date="1521645373217" expanded="true" signature="19110:19137" ph="..." />
+                <marker date="1521647568105" expanded="true" signature="19042:19069" ph="..." />
+                <marker date="1521647568105" expanded="true" signature="19125:19152" ph="..." />
               </folding>
             </state>
           </provider>
@@ -36,8 +39,8 @@
       <file leaf-file-name="company.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/company.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="100" column="281" lean-forward="false" selection-start-line="100" selection-start-column="281" selection-end-line="100" selection-end-column="281" />
+            <state relative-caret-position="286">
+              <caret line="58" column="85" lean-forward="true" selection-start-line="58" selection-start-column="85" selection-end-line="58" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -58,8 +61,8 @@
       <file leaf-file-name="delta.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/delta.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="458">
+              <caret line="465" column="5" lean-forward="true" selection-start-line="465" selection-start-column="5" selection-end-line="465" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -91,6 +94,8 @@
       <find>toTop</find>
       <find>exc</find>
       <find>nas</find>
+      <find>255px</find>
+      <find>roll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +108,8 @@
         <option value="$PROJECT_DIR$/js/jreject.css" />
         <option value="$PROJECT_DIR$/js/jreject.js" />
         <option value="$PROJECT_DIR$/css/jreject.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/delta.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/company.html" />
       </list>
     </option>
@@ -712,34 +717,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/delta.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="465" column="5" lean-forward="true" selection-start-line="465" selection-start-column="5" selection-end-line="465" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="347">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1521645373217" expanded="true" signature="19027:19054" ph="..." />
-            <marker date="1521645373217" expanded="true" signature="19110:19137" ph="..." />
+            <marker date="1521647568105" expanded="true" signature="19042:19069" ph="..." />
+            <marker date="1521647568105" expanded="true" signature="19125:19152" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/delta.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/company.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="100" column="281" lean-forward="false" selection-start-line="100" selection-start-column="281" selection-end-line="100" selection-end-column="281" />
+        <state relative-caret-position="286">
+          <caret line="58" column="85" lean-forward="true" selection-start-line="58" selection-start-column="85" selection-end-line="58" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
