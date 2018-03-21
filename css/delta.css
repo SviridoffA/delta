@@ -453,7 +453,7 @@ hr {
     .drop ul .serv {
         display: none;
         background-color: #FFFFFF;
-        width: 340px;
+        width: 310px;
     }
     #srv.act > .serv {
         display: block;
