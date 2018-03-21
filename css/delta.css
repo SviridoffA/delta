@@ -22,6 +22,15 @@ table {
 tr {
     height: 100px;
 }
+#nas {
+    text-align: center;
+    margin-top: 130px;
+}
+#nas img {
+    horiz-align: center;
+    width: 100%;
+    max-width: 430px;
+}
 td {
     font-family: 'Open Sans';
     font-size: 22px;
@@ -31,6 +40,12 @@ td {
 }
 .cover {
     margin-top: 160px;
+}
+.txt:hover {
+    color: #f20444;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #067CFF !important;
 }
 hr {
     width: 155px;

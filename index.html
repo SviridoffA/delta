@@ -39,16 +39,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	  <![endif]-->
   </head>
-  <body><a name="top"/>
-      <header>
+  <body>
+      <header  id="home">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container" id="iw">
-				<a href="#top"><img height="50" src="./pic/logo.svg" id="logo"></a>
+				<a href="#home"><img height="50" src="./pic/logo.svg" id="logo"></a>
 				<a id="butt" href="#nolink"><span></span></a>
 					<div class="drop">
 						<ul>
-							<li><a href="#top">О НАС</a></li>
-							<li id="srv"><a href="#nolink">УСЛУГИ <i class="fa fa-angle-down"></i></a>
+							<li><a href="company.html">О НАС</a></li>
+							<li id="srv" class="roll"><a href="#nolink">УСЛУГИ <i class="fa fa-angle-down"></i></a>
 								<div class="serv">
 								<ul>
 									<li><a href="#hod">РЕМОНТ ХОДОВОЙ</a></li>
@@ -68,10 +68,10 @@
 						</ul>
 					</div>
 				<ul class="nav navbar-nav navbar-right">
-					<li class="dropbtn"><a href="#top">О НАС</a></li>
+					<li class="dropbtn"><a href="company.html"><span class="txt">О НАС</span></a></li>
 					<li class="dropdown">
-						<button class="dropbtn" style="outline-color: #ffffff;" >УСЛУГИ <i class="fa fa-angle-down"></i></button>
-						<div class="dropdown-content" style="width:300px; ">
+						<button class="dropbtn" style="outline-color: #ffffff;" "><span class="txt">УСЛУГИ </span><i class="fa fa-angle-down"></i></button>
+						<div class="dropdown-content" style="width:300px; " id="r2">
 							<a href="#hod" style="border-bottom: 1px solid #697c93; color: #697c93; margin: 0 0 0 10px;">РЕМОНТ ХОДОВОЙ</a>
 							<a href="#raz" style="border-bottom: 1px solid #697c93; color: #697c93; margin: 0 0 0 10px;">РАЗВАЛ/СХОЖДЕНИЕ</a>
 							<a href="#reg" style="border-bottom: 1px solid #697c93; color: #697c93; margin: 0 0 0 10px;">РЕГЛАМЕНТНОЕ ОБСЛУЖИВАНИЕ</a>
@@ -84,13 +84,13 @@
 							<a href="#kaf" style="border-bottom: 0px solid #697c93; color: #697c93; margin: 0 0 0 10px;">КАФЕ</a>
 						</div>
 					</li>
-					<!--<li class="dropbtn"><a href="#nolink">СЕРВИС</a></li>-->
-					<li class="dropbtn"><a href="#cont">КОНТАКТЫ</a></li>
+					<!--<li class="dropbtn"><a href="#nolink">><span class="txt">СЕРВИС</span></a></li>-->
+					<li class="dropbtn" id="r1"><a href="#cont"><span class="txt">КОНТАКТЫ</span></a></li>
 				</ul>
 			</div>
 		</nav>
 		</header>
-		<a href="#top"><div class="butup" id="toTop"><img src="pic/up.svg" width="100%"></div></a>
+		<a href="#home"><div class="butup" id="toTop"><img src="pic/up.svg" width="100%"></div></a>
 		<div class="image-wrap">
 			<img src="pic/hdback.jpg">
 		</div>
@@ -111,7 +111,7 @@
 		</div>
 		</div>
 		<div class="parallax">
-			<div class="section1" style="background-color: transparent;"><a name="hod"/>
+			<section class="section1" style="background-color: transparent;" id="hod">
 				<div class="container">
 					<div style="margin: 115px 0px 0px 50px" class="wheel1"><img src="pic/wheel.svg" width="120%"></div>
 					<div style="margin-top: -90px" id="c1">
@@ -127,8 +127,8 @@
 						</div>
 					</div>
 					</div>
-				</div>
-			<div class="section2"><a name="raz"/>
+				</section>
+			<section class="section2" id="raz">
 				<div class="container">
 					<div style="margin-top: 650px" id="c2">
 						<div style="float: left; width: 50%; margin-top: -20px" class="revealator-slideright revealator-once no-js" id="cs2">
@@ -141,9 +141,9 @@
 						<div style="float: right; width: 50%; margin-top: -60px" class="revealator-slideleft revealator-once no-js" id="s2"><img src="pic/razval.png" width="100%"></div>
 					</div>
 				</div>
-			</div>
-			<div style="background-color: white; height: 275px; position: relative; top: -90px; margin-bottom: -90px; z-index: 10"></div><a name="reg"/>
-			<div class="section3">
+			</section>
+			<div style="background-color: white; height: 275px; position: relative; top: -90px; margin-bottom: -90px; z-index: 10"></div>
+            <section class="section3" id="reg">
 				<div class="container">
 					<div style="position: relative; margin: 123px 0px 0px 50px" class="s3"><img src="pic/wheel.svg" width="120%"></div>
 					<div style="margin-top: -90px" id="c3">
@@ -158,8 +158,8 @@
 						</div>
 						</div>
 				</div>
-			</div>
-			<div class="section4"><a name="mon"/>
+			</section>
+			<div class="section4" id="mon">
 					<div class="container" >
 						<div style="float: left; width: 50%; margin-top: 400px" class="revealator-slideright revealator-once no-js" id="cs4">
 							<h2>ШИНОМОНТАЖ,<br>
@@ -171,7 +171,7 @@
 					    </div>
 					</div>
 			</div>
-			<div class="section5" style="width: 100%; border-bottom: 26px solid #f40442"><a name="moy"/>
+			<section class="section5" style="width: 100%; border-bottom: 26px solid #f40442" id="moy">
 				<div style="max-width: 1308px; margin: 0px auto 0px auto">
 				<div style="position: relative; left: 180px" class="wheel"><img src="pic/wheel.svg" width="1308px"></div>
 					<div>
@@ -188,8 +188,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="section6"><a name="rih"/>
+			</section>
+			<div class="section6" id="rih">
 				<div class="container">
 					<div style="margin-top: 610px" class="cs6">
 						<div style="float: left; width: 50%; margin-top: -20px" class="revealator-slideright revealator-once no-js" id="cs6">
@@ -205,8 +205,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="section7" style="background-color: transparent;"><a name="mal"/>
-				<div class="container">
+			<section class="section7" style="background-color: transparent;" id="mal">
+                <div class="container">
 					<div style="position: relative; top: 132px; right: -50px" class="wheel7"><img src="pic/wheel.svg" width="120%"></div>
 					<div style="position: relative; top: 28px" class="cs7">
 						<div style="float: left; width: 50%; margin-top: -50px" class="revealator-slideright revealator-once no-js" id="cs7"><img src="pic/mal.png" ></div>
@@ -219,8 +219,8 @@
 						</div>
 					</div>
 					</div>
-				</div>
-			<div class="section8"><a name="zap"/>
+				</section>
+			<section class="section8" id="zap">
 				<div class="container">
 					<div style="margin-top: 650px" class="cs8">
 						<div style="float: left; width: 50%; margin-top: -20px" class="revealator-slideright revealator-once no-js" id="cs8">
@@ -234,8 +234,8 @@
 						<div style="float: right; width: 50%; margin-top: -150px" class="revealator-slideleft revealator-once no-js" id="c8"><img src="pic/zapchasti.png" width="100%"></div>
 					</div>
 				</div>
-			</div>
-			<div class="section9"><a name="con"/>
+			</section>
+			<section class="section9" id="con">
 				<div class="container">
 					<div style="margin-top: 240px;" class="cs9">
 						<div style="float: left; width: 50%; margin: -119px 70px 0px -75px" class="revealator-slideright revealator-once no-js" id="c9"><img src="pic/cond.png"></div>
@@ -250,8 +250,8 @@
 						</div>
 					<div style="position: relative; top: -65px; left: 50px" class="wheel9"><img src="pic/wheel.svg" width="120%"></div>
 				</div>
-			</div>
-			<div class="section10"><a name="kaf"></a>
+			</section>
+			<section class="section10" id="kaf">
 				<div class="container">
 				<div style="float: left; width: 50%; margin: 35% 0px 0px 0px" class="revealator-slideright revealator-once no-js" id="c10">
 							<h2>КАФЕ</h2>
@@ -261,8 +261,8 @@
 							например юмористичесские вставки или слова.</p>
 						</div>
 				</div>
-			</div>
-			<div class="section11"><a name="cont"/>
+			</section>
+			<section class="section11" id="cont">
 				<div style="position: relative; z-index: 9999; margin-right: 60%; top: 450px; height: 400px; width: 40%; background-color: #1377ff" class="revealator-slideright revealator-once no-js" id="cs10">
 					<div style=" position: relative; color: white; text-align: left; margin-left: 20%" class="contact">
 						<table>
@@ -274,9 +274,9 @@
 					</div>
 				</div>
 				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A26898b9e7ac2cc9c130b23f313fcba7b883ef667081ceb4fa93037ac79ff2876&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
-				</div>
+				</section>
 			<footer>
-			<div class="container">
+			<div class="container" id="r3">
 				<div style="margin: 20px 0px 15px 0px" class="logobl"><a href="#top"><img width="150" height="35" src="./pic/logobl.svg"></a></div>
 				<div class="ftleft">
 					<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
@@ -316,7 +316,7 @@
 	$('#toTop').fadeOut();
 	}
 	});
-	('#toTop').click(function() {
+	$('#toTop').click(function() {
 	$('body,html').animate({scrollTop:0},800);
 	});
 	});
@@ -329,14 +329,37 @@
 
 	 <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(document).ready(function () {
-        var url = document.location.toString();
-        $("a").not('#butt').filter(function () {
-            return url.indexOf(this.href) != -1;
-        }).addClass("active");
-    }); 
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>-->
+	  <script type="text/javascript">
+	  jQuery(window).scroll(function(){
+	  var $sections = $('section');
+	  $sections.each(function(i,el){
+	  var top  = $(el).offset().top-100;
+	  var bottom = top +$(el).height();
+	  var scroll = $(window).scrollTop();
+	  var id = $(el).attr('id');
+	  if( scroll > top && scroll < bottom){
+	  $('a.active').removeClass('active');
+	  $('a[href="#'+id+'"]').addClass('active');
+
+	  }
+	  })
+	  });
+
+	  $("#r1,#r2,#r3").on("click","a", function (event) {
+	  // исключаем стандартную реакцию браузера
+         event.preventDefault();
+
+	  // получем идентификатор блока из атрибута href
+	  var id  = $(this).attr('href'),
+
+	  // находим высоту, на которой расположен блок
+	  top = $(id).offset().top;
+
+	  // анимируем переход к блоку, время: 800 мс
+	  $('body,html').animate({scrollTop: top}, 800);
+	  });
+
 	</script>
 <style type="text/css">#hellopreloader>p{display:none;}
 #hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 270px;background: #fff url(./pic/nldr.svg) center center no-repeat;background-size:270px;}
