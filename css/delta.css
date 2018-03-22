@@ -11,6 +11,10 @@ a {
     font-weight: bold;
     font-size: 23px;
 }
+.applink {
+    color: white !important;
+    font-family: "Open Sans";
+}
 h2 {
     font-family: 'Ralewaybold';
     font-weight: bold;
