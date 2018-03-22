@@ -1,6 +1,12 @@
 a {
     text-decoration: none !important;
 }
+.text {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
 h2 {
     font-family: 'Ralewaybold';
     font-weight: bold;
