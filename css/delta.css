@@ -8,9 +8,8 @@ a {
     margin-bottom: 70px;
 }
 .price {
-    font-family: "Open Sans";
     font-weight: bold;
-    color: red;
+    font-size: 23px;
 }
 h2 {
     font-family: 'Ralewaybold';
