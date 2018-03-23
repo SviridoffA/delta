@@ -1,6 +1,9 @@
 a {
     text-decoration: none !important;
 }
+.fa {
+    display: contents !important;
+}
 .text {
     max-width: 800px;
     margin: auto;
@@ -656,7 +659,7 @@ hr {
         margin: -110px 0px 0px -470px !important;
     }
     #cs5 {
-        margin-top: -120px !important;
+        margin-top: -150px !important;
     }
     .section6 {
         top: -140px !important;
