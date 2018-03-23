@@ -7,9 +7,6 @@ a {
     margin-top: 30px;
     margin-bottom: 70px;
 }
-.nav.navbar-nav.navbar-right {
-    display: inline-block !important;
-}
 #c10 hr {
         width: 90px;
 }
@@ -409,9 +406,7 @@ hr {
         height: 500px !important;
     }
     .navbar-nav {
-        visibility: hidden;
-        width: 0px;
-        height: 0px;
+        display: none !important;
     }
     #butt { position: relative; float: right; }
 
