@@ -7,6 +7,9 @@ a {
     margin-top: 30px;
     margin-bottom: 70px;
 }
+#c10 hr {
+        width: 90px;
+}
 .price {
     font-weight: bold;
     font-size: 23px;
@@ -481,8 +484,14 @@ hr {
     .drop a:focus {
         text-decoration: none !important;
     }
+    #s1 {
+        margin-top: -25px;
+    }
     #c1 {
         margin-top: -30px !important;
+    }
+    #cs1 {
+            top: -10px !important;
     }
     .section1 {
         margin-bottom: -115px !important;
@@ -490,6 +499,9 @@ hr {
     .section2 {
         top: -190px !important;
         margin-bottom: -190px !important;
+    }
+    #s2 {
+            margin-top: -10px !important;
     }
     #c2 {
         margin-top: 460px !important;
@@ -500,6 +512,9 @@ hr {
     .section3 {
         top: -190px !important;
         margin-bottom: -190px !important;
+    }
+    #t3 {
+        margin-top: -20px;
     }
     #c3 {
         margin-top: -40px !important;
@@ -524,6 +539,9 @@ hr {
     .cs6 {
         margin-top: 400px !important;
     }
+    #c6 {
+        margin-top: -10px !important;
+    }
     .section7 {
         top: -150px !important;
         margin-bottom: -150px !important;
@@ -545,6 +563,9 @@ hr {
     .cs8 {
         margin-top: 490px !important;
     }
+    #c8 {
+        margin-top: -85px !important;
+    }
     .section9 {
         top: -255px !important;
         margin-bottom: -255px !important;
@@ -563,7 +584,7 @@ hr {
         margin-bottom: -125px !important;
     }
     .contact {
-        top: 10% !important;
+        top: 0% !important;
     }
     .s3 {
             margin: 90px 0px 0px 50px !important;
@@ -612,6 +633,9 @@ hr {
     .s3 {
         margin: 70px 0px 0px 50px !important;
     }
+    #cs3 {
+            margin-top: 55px !important;
+    }
     .section4 {
         top: -95px !important;
         margin-bottom: -95px !important;
@@ -653,6 +677,9 @@ hr {
     #cs7 {
         margin-top: 25px !important;
     }
+    #c7 {
+            margin-left: 40px;
+    }
     .section8 {
         top: -140px !important;
         margin-bottom: -140px !important;
@@ -677,7 +704,7 @@ hr {
         margin: -50px 47px 15px -48px !important;
     }
     #c10 {
-        margin: 15% 0px 0px 0px !important;
+        margin: 5% 0px 0px 0px !important;
     }
     #cs10 {
         top: 436px !important;
@@ -833,6 +860,7 @@ hr {
     #t3 {
         float: none !important;
         width: 100% !important;
+        margin-top: 10px;
     }
 
     .section4 {
@@ -893,6 +921,7 @@ hr {
     #c7 {
         float: none !important;
         width: 100% !important;
+        margin-left: 0px;
     }
 
     .section8 {
@@ -901,7 +930,7 @@ hr {
     }
 
     .cs8 {
-        margin-top: 375px !important;
+        margin-top: 345px !important;
     }
 
     #cs8 {
