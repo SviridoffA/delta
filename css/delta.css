@@ -18,7 +18,7 @@ a {
     color: white !important;
     font-family: "Open Sans";
 }
-h2 {
+h2, h1 {
     font-family: 'Ralewaybold';
     font-weight: bold;
     font-size: 35px;
