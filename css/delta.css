@@ -108,6 +108,10 @@ hr {
     overflow: hidden;
     margin-top: -160px;
 }
+@font-face {
+    font-family: Open Sans;
+    src: url("../fonts/open-sans.ttf");
+}
 /* font-family: "RalewayRegular"; */
 @font-face {
     font-family: "RalewayRegular";

@@ -25,6 +25,8 @@ Disallow: /stage/
 
 User-agent: Yandex
 
+Allow: /
+
 Allow: /images/
 
 Allow: /pic/
