@@ -1,0 +1,42 @@
+User-agent: *
+
+Allow: /images/
+
+Allow: /pic/
+
+Disallow: /js/
+
+Disallow: /css/
+
+Disallow: /less/
+
+Disallow: /scss/
+
+Disallow: /stage/
+
+
+User-agent: Googlebot
+
+Allow: /
+
+Disallow: /stage/
+
+ 
+
+User-agent: Yandex
+
+Allow: /
+
+Allow: /images/
+
+Allow: /pic/
+
+Disallow: /js/
+
+Disallow: /css/
+
+Disallow: /less/
+
+Disallow: /scss/
+
+Disallow: /stage/

@@ -6489,7 +6489,7 @@ button.close {
 .modal-header:after,
 .modal-footer:before,
 .modal-footer:after {
-  display: table;
+  display: block;
   content: " ";
 }
 .clearfix:after,
